@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinational Selectors</title>
+    <style>
+        section {
+            padding: 30px;
+            margin: 30px;
+            background-color: lightblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 3px solid #0c0c0c;
+        }
+
+        section+h1 {
+            color: #ffffff;
+            background-color: #0c0c0c;
+            padding: 30px;
+        }
+
+        section+h1+p {
+            color: rgb(255, 255, 255);
+            background-color: #002da8;
+            padding: 30px;
+        }
+
+        section+h1+p+h1 {
+            color: rgb(255, 255, 255);
+            background-color: #ac10bd;
+            padding: 30px;
+        }
+
+        section+h1+p+h1+div {
+            border: 2px solid #002da8;
+            background-color: #051da431;
+            padding: 30px;
+        }
+
+        section+h1+p+h1+div h1 {
+            color: #002da8;
+        }
+
+        section+h1+p+h1+div p {
+            color: #f7fa72;
+        }
+
+        .card:hover+.card {
+            background-color: green;
+            color: #fff;
+        }
+
+        .card {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 2px solid #0c0c0c;
+        }
+
+        .container {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>CSS COMBINATION SELECTORS</h1>
+    </center>
+
+    <ul>
+        <li>Descendent selector (USING SPACE) </li>
+        <li>Child selector (USING > Symbol) </li>
+        <li>Adjacent sibling selector (USING + Symbol) </li>
+        <li>General sibling selector (USING ~ (tild) Symbol) </li>
+    </ul>
+
+    <h1>Adjacent sibling selector (USING + Symbol)</h1>
+    <p>The child selector is only for child not for grand child.</p>
+
+    <section>
+        <h1>heading 1 (Child Element) </h1>
+        <p>This is the paragragh</p>
+
+        <h1>heading 2 (Child Element) </h1>
+        <p>This is the paragragh</p>
+
+        <h1>heading 3 (Child Element) </h1>
+        <p>This is the paragragh</p>
+
+        <div>
+            <h1>heading 1 (GrandChild Element) </h1>
+            <p>This is the paragragh</p>
+        </div>
+
+        <h1>heading 2 (Child Element) </h1>
+        <p>This is the paragragh</p>
+
+        <h1>heading 3 (Child Element) </h1>
+        <p>This is the paragragh</p>
+    </section>
+
+    <h1>heading 1 (Child Element) </h1>
+    <p>This is the paragragh</p>
+
+    <h1>heading 2 (Child Element) </h1>
+    <p>This is the paragragh</p>
+
+    <div>
+        <h1>heading 1 (GrandChild Element) </h1>
+        <p>This is the paragragh</p>
+    </div>
+
+    <h1>heading 3 (Child Element) </h1>
+    <p>This is the paragragh</p>
+
+    <!-- example2 -->
+
+    <div class="container">
+        <div class="card">
+            <h1>heading1</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quod, fugit ullam in sapiente iure sit
+                ipsa saepe quia suscipit sequi omnis itaque praesentium esse doloremque, ipsuxm nostrum a nemo?</p>
+        </div>
+        <div class="card">
+            <h1>heading1</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quod, fugit ullam in sapiente iure sit
+                ipsa saepe quia suscipit sequi omnis itaque praesentium esse doloremque, ipsuxm nostrum a nemo?</p>
+        </div>
+        <div class="card">
+            <h1>heading1</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quod, fugit ullam in sapiente iure sit
+                ipsa saepe quia suscipit sequi omnis itaque praesentium esse doloremque, ipsuxm nostrum a nemo?</p>
+        </div>
+    </div>
+</body>
+
+</html>

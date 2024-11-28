@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet
+        }
+
+        #card {
+            width: 350px;
+            background-color: #fff;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-shadow: 15px 15px 0px #0c0c0c;
+            border: 3px solid #0c0c0c;
+        }
+
+        #subtitle {
+            line-height: 1.5;
+        }
+
+        #main-btn {
+            width: 100%;
+            border: none;
+            background-color: blueviolet;
+            padding: 10px;
+            font-size: 1.1rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 0px #0c0c0c;
+        }
+
+        #main-btn:active {
+            transform: translateX(2px) translateY(2px);
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>CSS selectors</h1>
+        <p> we have some css selectors to style the html elements.</p>
+    </center>
+
+    <ul>
+        <li>Universal selectors (*)</li>
+        <li>Element selectors (tag name) </li>
+        <li>Class name selectors (class name using .)</li>
+        <li>Id Selectors (using id attribute #) </li>
+        <li>attribute selectors (using any attribute inside the elements) </li>
+        <li>attribute with value selectors (attribute with values) </li>
+    </ul>
+
+    <h1>Id Selectors (using id attribute #) </h1>
+
+    <section id="container">
+        <div id="card">
+            <h1 id="heading">This is the heading</h1>
+            <p id="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos eaque, pariatur
+                reiciendis doloribus ut libero nihil culpa nesciunt ea, tenetur suscipit adipisci, magnam consequuntur
+                quis illo non officiis provident. At.</p>
+            <button id="main-btn">Create Account</button>
+        </div>
+    </section>
+</body>
+
+</html>

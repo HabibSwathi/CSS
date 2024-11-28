@@ -1,0 +1,31 @@
+.padding {
+    border: 2px solid #ccc;
+}
+
+.padding h1 {
+    width: fit-content;
+}
+
+.b1 {
+    background-color: rgb(3, 7, 126);
+    color: #fff;
+    padding: 30px;
+}
+
+.b2 {
+    background-color: rgb(3, 126, 69);
+    color: #fff;
+    padding: 30px 60px;
+}
+
+.b3 {
+    background-color: rgb(126, 9, 3);
+    color: #fff;
+    padding: 30px 60px 90px;
+}
+
+.b4 {
+    background-color: rgb(226, 177, 28);
+    color: #fff;
+    padding: 30px 60px 90px 120px;
+}

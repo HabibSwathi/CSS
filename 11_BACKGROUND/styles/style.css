@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0c0c0c;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: rgb(42, 116, 72);
+}
+
+.banner1 {
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+    padding: 4%;
+    background-color: rgb(42, 116, 72);
+}
+
+.heading {
+    font-size: 4rem;
+    color: #fff;
+
+}
+
+.text-green {
+    color: rgb(255, 221, 83);
+
+}
+
+.banner1 .left {
+    flex: 2;
+
+}
+
+.banner1 .right {
+    flex: 1;
+}
+
+.banner1 .right img {
+    width: 100%;
+
+}
+
+.banner1 .left button {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    color: rgb(42, 116, 72);
+    font-weight: 700;
+}
+
+.banner1 .left p {
+    font-size: 1.1rem;
+    color: rgb(255, 221, 83);
+    line-height: 1.5;
+}
+
+.banner2 {
+    min-height: 90vh;
+    padding: 4%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg);
+    background-repeat: no-repeat;
+    /*repeat, no-repeat, repeat-x, repeat-y*/
+    background-position: center;
+    /*Left bottom, right bottom, left top, right top, center top, center bottom, left, right, center, top, bottom*/
+    background-size: 100%;
+    /*0%-100%, cover, contain, auto*/
+}
+
+.banner2 h2,
+.banner2 p {
+    color: #fff;
+}
+
+.banner2 button {
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+    font-style: 1.2rem;
+    border-radius: 100px;
+}
+
+/* bg-attachment  */
+.banner3 {
+    padding: 4%;
+    background-image: url(https://img.freepik.com/free-photo/glassclad-skyscrapers-central-mumbai-reflecting-sunset-hues-blue-hour_469504-15.jpg?t=st=1731305160~exp=1731308760~hmac=2e1b0972ae0b22113159fb4874a3d83c624b5ae249a971581f435c2de81a1cf7&w=740);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    line-height: 2;
+    padding: 4%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            appearance: none;
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            background: url(https://i.pinimg.com/originals/ec/c0/15/ecc015d4e89f77b435df3cd81928ad48.gif) no-repeat center;
+            background-size: cover;
+            cursor: pointer;
+            transition: 0.8s;
+            filter: drop-shadow(10px 10px 5px rgb(249, 226, 18));
+        }
+
+        input:checked {
+            background: url(https://i.pinimg.com/originals/c1/e9/51/c1e95172d8c115d66148cb9ad68c1c74.gif) no-repeat center;
+            background-size: cover;
+        }
+
+        input:hover {
+            transform: scale(1.2);
+        }
+
+        input:default {
+            background: url(https://i.pinimg.com/originals/c4/07/04/c4070448ce8174b2b3e121081ddbbee5.gif) no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="checkbox" checked>
+    <input type="checkbox">
+    <input type="checkbox">
+</body>
+
+</html>

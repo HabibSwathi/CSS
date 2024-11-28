@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>famous college</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        button {
+            cursor: pointer;
+            margin-top: 5px;
+            border: none;
+            background-color: brown;
+            padding: 10px;
+        }
+
+        .more-info {
+            display: none;
+            padding: 8px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        table tr:nth-child(odd) {
+            background-color: rgb(190, 52, 52);
+        }
+
+        table tr:nth-child(even) {
+            background-color: rgba(204, 62, 62, 0.736);
+        }
+
+        table th {
+            background-color: rgb(86, 23, 23);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>College Name</th>
+                <th>Type</th>
+                <th>Notable Courses</th>
+                <th>Highlights</th>
+                <th>More Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Indian Institute of Science (IISc)</td>
+                <td>Research Institute</td>
+                <td>M.Sc, Ph.D. in Science and Engineering</td>
+                <td>Renowned for research, global rankings</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Malleshwaram, Established: 1909, Focus: Research and higher
+                        studies.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>National Institute of Fashion Technology (NIFT)</td>
+                <td>Fashion Institute</td>
+                <td>B.Des, M.Des in Fashion Design</td>
+                <td>Industry connections, strong placements</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Hennur, Established: 2006, Specialty: Renowned for fashion design
+                        and technology programs.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>RV College of Engineering</td>
+                <td>Engineering College</td>
+                <td>B.E, M.Tech in various disciplines</td>
+                <td>Excellent infrastructure, placements</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Mysore Road, Established: 1963, One of the oldest and most
+                        prestigious engineering colleges in Karnataka.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Jain University</td>
+                <td>University</td>
+                <td>B.E, M.Tech, MBA</td>
+                <td>Diverse courses, emphasis on entrepreneurship</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Jayanagar, Established: 1990, Known for a wide range of UG and PG
+                        programs.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>St. Joseph's College</td>
+                <td>Arts and Science College</td>
+                <td>BA, B.Sc, B.Com, MA</td>
+                <td>Strong liberal arts focus, diverse programs</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Brigade Road, Established: 1882, Emphasizes holistic education.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Mount Carmel College</td>
+                <td>Women's College</td>
+                <td>BA, B.Sc, B.Com, MBA</td>
+                <td>Strong emphasis on women's empowerment</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Vasant Nagar, Established: 1948, Offers a vibrant campus life.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>PES University</td>
+                <td>University</td>
+                <td>B.E, M.Tech, MBA</td>
+                <td>Good placement records, modern facilities</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Electronic City, Established: 1972, Focus on engineering and
+                        technology.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>National Law School of India University (NLSIU)</td>
+                <td>Law School</td>
+                <td>B.A. LL.B, LL.M</td>
+                <td>Top-ranked law school in India</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Nagarbhavi, Established: 1987, Known for its rigorous curriculum.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>BIT Bangalore (Bangalore Institute of Technology)</td>
+                <td>Engineering College</td>
+                <td>B.E, M.Tech</td>
+                <td>Strong industry connections</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: KG Halli, Established: 1979, Offers diverse engineering programs.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Christ University</td>
+                <td>University</td>
+                <td>Various UG and PG programs</td>
+                <td>Holistic education, vibrant campus life</td>
+                <td>
+                    <button onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">Show
+                        More</button>
+                    <div class="more-info">Location: Hosur Road, Established: 1969, Known for research and social
+                        responsibility.</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

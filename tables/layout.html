@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid #222;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        .tabel-layout {
+            width: 30%;
+            table-layout: fixed;
+        }
+
+        .tabel-layout td {
+            /* overflow: hidden; */
+            /* overflow: scroll; */
+            /* overflow: auto; */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /*(text...)*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <table class="tabel-layout">
+        <caption>tabel layout</caption>
+        <tr>
+            <th>sl.no</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile No.</th>
+            <th>Address</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>yashu</td>
+            <td>yashu@gmail.com</td>
+            <td>37897690</td>
+            <td>banglore</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Halesh</td>
+            <td>Halesh@gmail.com</td>
+            <td>37678690</td>
+            <td>banglore</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Annapoorneshwari</td>
+            <td>Annapoorneshwari@gmail.com</td>
+            <td>376732490</td>
+            <td>banglore</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>vijay</td>
+            <td>vijay@gmail.com</td>
+            <td>786732490</td>
+            <td>Manglore</td>
+            <td>D</td>
+        </tr>
+    </table>
+</body>
+
+</html>

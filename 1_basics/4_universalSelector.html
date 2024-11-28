@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        * {
+            font-size: 2rem;
+            color: purple;
+            border: 2px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .container * {
+            color: green;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>CSS selectors</h1>
+        <p> we have some css selectors to style the html elements.</p>
+    </center>
+
+    <ul>
+        <li>Universal selectors (*)</li>
+        <li>Element selectors (tag name) </li>
+        <li>Class name selectors (class name using .) </li>
+        <li>Id Selectors (using id attribute #) </li>
+        <li>attribute selectors (using any attribute inside the elements) </li>
+        <li>attribute with value selectors (attribute with values) </li>
+    </ul>
+
+    <h1>Universal Selectors (*) </h1>
+    <p>This selector is for all the elements present in parent Element</p>
+
+    <div class="container">
+        <!-- h1*10{heading$} -->
+        <h1>heading1</h1>
+        <h1>heading2</h1>
+        <h1>heading3</h1>
+        <h1>heading4</h1>
+        <h1>heading5</h1>
+        <h1>heading6</h1>
+        <h1>heading7</h1>
+        <h1>heading8</h1>
+        <h1>heading9</h1>
+        <h1>heading10</h1>
+    </div>
+</body>
+
+</html>

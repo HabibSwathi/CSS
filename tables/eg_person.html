@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous People</title>
+    <style>
+        body {
+            background-color: #eef2f3;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid #4A4A4A;
+            border-collapse: collapse;
+            padding: 12px;
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: auto;
+        }
+
+        table td img {
+            width: 200px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .scroll th {
+            background-color: darkslateblue;
+            color: white;
+        }
+
+        .scroll tr:nth-child(odd) {
+            background-color: #597ea3;
+        }
+
+        .scroll tr:nth-child(even) {
+            background-color: #4b6584;
+        }
+
+        .scroll tr:nth-child(odd):hover {
+            background-color: #fff;
+            color: black;
+        }
+
+        .scroll tr:nth-child(even):hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Famous People</h1>
+    <table class="scroll">
+        <tr>
+            <th>NAME</th>
+            <th>ROLE/TITLE</th>
+            <th>IMAGE</th>
+            <th>NOTABLE CONTRIBUTIONS</th>
+            <th>CURRENT FOCUS</th>
+        </tr>
+        <tr>
+            <td>Taylor Swift</td>
+            <td>Singer-Songwriter</td>
+            <td><img src="https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s900-c-k-c0x00ffffff-no-rj"
+                    alt="Taylor Swift"></td>
+            <td>Revolutionized pop music, award-winning albums</td>
+            <td>Touring, philanthropy, re-recording albums</td>
+        </tr>
+        <tr>
+            <td>Malala Yousafzai</td>
+            <td>Nobel Laureate & Activist</td>
+            <td><img src="https://miro.medium.com/v2/resize:fit:822/1*xX1kM60fVTy-wOYxCguH3g.png"
+                    alt="Malala Yousafzai"></td>
+            <td>Advocacy for girls' education</td>
+            <td>Human rights, global education campaigns</td>
+        </tr>
+        <tr>
+            <td>Virat Kohli</td>
+            <td>Cricketer</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/220px-Virat_Kohli_in_PMO_New_Delhi.jpg"
+                    alt="Virat Kohli"></td>
+            <td>Captaincy, records in international cricket</td>
+            <td>Cricket, fitness initiatives</td>
+        </tr>
+        <tr>
+            <td>Greta Thunberg</td>
+            <td>Climate Activist</td>
+            <td><img src="https://images.firstpost.com/wp-content/uploads/2019/07/Greta-Thunberg.jpg?im=FitAndFill=(596,336)"
+                    alt="Greta Thunberg"></td>
+            <td>Global climate movement, Fridays for Future</td>
+            <td>Climate awareness, activism campaigns</td>
+        </tr>
+        <tr>
+            <td>Roger Federer</td>
+            <td>Professional Tennis Player</td>
+            <td><img src="https://cdn.britannica.com/22/188722-050-BB193EA3/Roger-Federer-US-Open-2007.jpg"
+                    alt="Roger Federer"></td>
+            <td>20-time Grand Slam winner</td>
+            <td>Sports philanthropy, ambassador roles</td>
+        </tr>
+        <tr>
+            <td>Priyanka Chopra</td>
+            <td>Actor & Philanthropist</td>
+            <td><img src="https://m.media-amazon.com/images/M/MV5BMjAxNzUwNjExOV5BMl5BanBnXkFtZTcwNDUyMTUxNw@@._V1_.jpg"
+                    alt="Priyanka Chopra"></td>
+            <td>International film and TV roles, UNICEF ambassador</td>
+            <td>Acting, social causes, entrepreneurship</td>
+        </tr>
+        <tr>
+            <td>Elon Musk</td>
+            <td>CEO of Tesla & SpaceX</td>
+            <td><img src="https://www.investopedia.com/thmb/XJDLdvCuNbcWk_EVZzXx84ae82c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1258889149-1f50bb87f9d54dca87813923f12ac94b.jpg"
+                    alt="Elon Musk"></td>
+            <td>Electric vehicles, space exploration</td>
+            <td>Mars colonization, AI research</td>
+        </tr>
+    </table>
+</body>
+
+</html>

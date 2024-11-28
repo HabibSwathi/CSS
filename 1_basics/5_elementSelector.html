@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            /*providing styles using tag name*/
+            min-height: 100vh;
+            background-color: #55bc7c;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 4%;
+        }
+
+        div {
+            width: 350px;
+            background-color: #fff;
+            padding: 30px;
+            line-height: 1.5;
+        }
+
+        div button {
+            width: 100%;
+            margin-top: 20px;
+            border: none;
+            padding: 10px;
+            font-size: 1.1rem;
+            background-color: #55bc7c;
+            font-weight: 600;
+            border-radius: 5px;
+            box-shadow: 0px 3px 10px #55bc7c;
+            cursor: pointer;
+        }
+
+        div button:active {
+            transform: scale(0.9);
+        }
+
+        div h1 {
+            color: #55bc7c;
+            margin-bottom: 20px;
+            color: #55bc7c;
+        }
+
+        div p {
+            color: rgb(54, 54, 54);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>CSS selectors</h1>
+        <p> we have some css selectors to style the html elements.</p>
+    </center>
+
+    <ul>
+        <li>Universal selectors (*)</li>
+        <li>Element selectors (tag name) </li>
+        <li>Class name selectors (class name using .) </li>
+        <li>Id Selectors (using id attribute #) </li>
+        <li>attribute selectors (using any attribute inside the elements) </li>
+        <li>attribute with value selectors (attribute with values) </li>
+    </ul>
+
+    <h1>Element Selectors (tag name) </h1>
+    <section>
+        <!-- div*5>h1{heading$}/p{Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo tenetur repellendus error quam, tempore unde alias. Non sint minus nam, repellat facere eveniet. Nulla autem mollitia et soluta libero?}/btn{Know More} -->
+        <div>
+            <h1>heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo tenetur repellendus error quam,
+                tempore unde alias. Non sint minus nam, repellat facere eveniet. Nulla autem mollitia et soluta libero?
+            </p>
+            <button>Know More</button>
+        </div>
+        <div>
+            <h1>heading2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo tenetur repellendus error quam,
+                tempore unde alias. Non sint minus nam, repellat facere eveniet. Nulla autem mollitia et soluta libero?
+            </p>
+            <button>Know More</button>
+        </div>
+        <div>
+            <h1>heading3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo tenetur repellendus error quam,
+                tempore unde alias. Non sint minus nam, repellat facere eveniet. Nulla autem mollitia et soluta libero?
+            </p>
+            <button>Know More</button>
+        </div>
+        <div>
+            <h1>heading4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo tenetur repellendus error quam,
+                tempore unde alias. Non sint minus nam, repellat facere eveniet. Nulla autem mollitia et soluta libero?
+            </p>
+            <button>Know More</button>
+        </div>
+        <div>
+            <h1>heading5</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo tenetur repellendus error quam,
+                tempore unde alias. Non sint minus nam, repellat facere eveniet. Nulla autem mollitia et soluta libero?
+            </p>
+            <button>Know More</button>
+        </div>
+    </section>
+</body>
+
+</html>

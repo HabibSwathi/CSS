@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-collapse: collapse;
+            width: 80%;
+
+        }
+
+        tr:nth-child(odd) {
+            background-color: antiquewhite;
+
+        }
+
+        tr:nth-child(even) {
+            background-color: black;
+            color: #fff;
+        }
+
+        tr:nth-child(odd):hover {
+            background-color: blueviolet;
+
+        }
+
+        tr:nth-child(even):hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>odd-even-table</h1>
+    </center>
+    <table align="center">
+        <caption>Employee deatails</caption>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Mobile</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>A</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>B</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>c</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>D</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>E</td>
+            <td>900</td>
+        </tr>
+    </table>
+</body>
+
+</html>
